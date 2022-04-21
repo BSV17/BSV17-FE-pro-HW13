@@ -13,7 +13,6 @@ function validateEmail (email) {
 
 function validatePassword (password) {
     let regex = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$/;
-    console.log(password);
     return regex.test(password);
 }
 
